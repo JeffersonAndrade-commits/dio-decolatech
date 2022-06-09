@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #171515;
+}
+
+:root {
+    --text-color: #00aa00;
+}
+
+body {
+    color: #ccc;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#sobre,
+#contato {
+    color: #ccc;
+}
+
+.nav-1 {
+    display: flex;
+    gap: 32px;
+    color: var(--text-color);
+}
+
+header {
+    color: var(--text-color);
+    font-size: 30px;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2 {
+    color: var(--text-color);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    font-size: 20px;
+    padding-right: 320px;
+}
+
+p {
+    color: #ccc;
+}
+
+a {
+    color: #00aa00;
+    text-decoration: none;
+}
+
+.links {
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.hard-skills {
+    padding-left: 32%;
+    padding-bottom: 15px;
+}
+
+.soft-skills {
+    padding-left: 32%;
+}
+
+.cursor {
+    font-weight: 700;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    from,to {
+        color: transparent;
+    }
+    50%{
+        color: var(--text-color);
+    }
+}
